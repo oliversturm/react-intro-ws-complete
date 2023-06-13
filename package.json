@@ -1,71 +1,38 @@
 {
   "name": "react-intro-ws-complete",
-  "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "main": "src/index.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
   "dependencies": {
-    "@emotion/react": "11.9.0",
-    "@emotion/styled": "11.8.1",
-    "@mui/icons-material": "5.6.2",
-    "@mui/material": "5.6.3",
-    "@reduxjs/toolkit": "1.8.1",
-    "clsx": "1.1.1",
-    "dayjs": "1.11.1",
-    "immer": "9.0.12",
-    "prop-types": "15.8.1",
-    "react": "18.1.0",
-    "react-dom": "18.1.0",
-    "react-redux": "8.0.1",
-    "react-router-dom": "6.3.0",
-    "react-scripts": "5.0.1",
-    "tippy.js": "6.3.7"
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.5",
+    "@reduxjs/toolkit": "^1.9.5",
+    "clsx": "^1.2.1",
+    "dayjs": "^1.11.8",
+    "immer": "^10.0.2",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.0",
+    "react-router-dom": "^6.12.1",
+    "tippy.js": "^6.3.7"
   },
   "devDependencies": {
-    "@babel/runtime": "7.17.9",
-    "@storybook/addon-actions": "^6.4.22",
-    "@storybook/addon-essentials": "^6.4.22",
-    "@storybook/addon-interactions": "^6.4.22",
-    "@storybook/addon-links": "^6.4.22",
-    "@storybook/builder-webpack5": "^6.4.22",
-    "@storybook/manager-webpack5": "^6.4.22",
-    "@storybook/node-logger": "^6.4.22",
-    "@storybook/preset-create-react-app": "^4.1.0",
-    "@storybook/react": "^6.4.22",
-    "@storybook/testing-library": "^0.0.11",
-    "eslint": "^8.14.0",
-    "eslint-plugin-jest": "^26.1.5",
-    "eslint-plugin-react": "^7.29.4",
-    "webpack": "^5.72.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ],
-    "overrides": [
-      {
-        "files": [
-          "**/*.stories.*"
-        ],
-        "rules": {
-          "import/no-anonymous-default-export": "off"
-        }
-      }
-    ]
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "vite": "^4.3.9"
   }
 }
